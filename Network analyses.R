@@ -63,3 +63,21 @@ Grouping[10:26] <- "Mismatch Factors"
 #Centrality measures
 library(qgraph)
 centralityPlot(evolution_network)
+
+##Test for stability of centrality indices
+CentralStability <- bootnet(evolution_network, nBoots = 1000, type = "case",statistics = c("strength", "betweenness", "closeness"))
+
+# Get CS coeffcients
+corStability(CentralStability)
+
+# Plot stability of centrality indices 
+plot(CentralStability)
+
+##Test for edege weight accuracy 
+EdgeWgt <- bootnet(evolution_network, nBoots = 2500)
+
+#Summary table of results of edge weight accuracy 
+summary(EdgeWgt)
+
+#Plot edge weight accuracy
+plot(EdgeWgt, labels = TRUE, order = "sample")
