@@ -66,3 +66,31 @@ mismatch_descriptives_1 %>%
 
 
 # Scores on depression variables and mismatches
+mean(Evolution4$sleep) # sleep 17.03
+mean(Evolution4$exercise) # exercise 18.29
+mean(Evolution4$diet) #diet 13.13
+mean(Evolution4$unhealthy) #unhealthy 6.94
+mean(Evolution4$health) #health 10.48
+mean(Evolution4$medication) #medication 6.62
+mean(Evolution4$nature) #nature 16.19
+mean(Evolution4$joy) #joy 14.22
+mean(Evolution4$worrying) #worrying 16.48
+mean(Evolution4$childhood) #childhood 13.98
+mean(Evolution4$freedom) #freedom 13.02
+mean(Evolution4$time) #time 16.98
+mean(Evolution4$social) #social 12.71
+mean(Evolution4$materialism) #materialism 11.81
+mean(Evolution4$perfectionism) #perfectionism 19.27
+mean(Evolution4$individualism) #individualism 15.93
+mean(Evolution4$socialmedia) #socialmedia 16.24
+
+mean(Evolution4$Q88) # Little interest or pleasure in doing things 1.23
+mean(Evolution4$Q89) # Feeling down depressed or hopeless 1.19
+mean(Evolution4$Q90) # Trouble falling or staying asleep or sleeping too much 1.38
+mean(Evolution4$Q91) # Feeling tired or having little energy 1.64
+mean(Evolution4$Q92) # Poor appetite or overeating 1.04
+mean(Evolution4$Q93) # Feeling bad about yourself 1.30
+mean(Evolution4$Q94) # Trouble concentrating on things 1.13
+mean(Evolution4$Q95) # Moving or speaking so slowly that other people could have noticed - Or the opposite 0.47
+mean(Evolution4$Q96) # Thoughts that you would be better off dead, or of hurting yourself in some way 0.55
+
