@@ -17,9 +17,14 @@ Evolution %>%
   filter(Q99 == 4) %>%
   count() # 3 prefer not to say
 
+# Mean age 
+mean(as.numeric(mismatch_descriptives_1$Q104)) #23.43
+sd(as.numeric(mismatch_descriptives_1$Q104)) #3.02
+
 # Wich country are they from
 
 # There were some new responses on qualtrics but none of them finished the survey so I deleted them
+
 mismatch_descriptives_1 <- mismatch_descriptives %>%
   filter(Progress == 100)
 
